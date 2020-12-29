@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE ?= arm-linux-gnueabi-$/;"	m
+EXE	Makefile	/^EXE=smi-tool$/;"	m
+MAX_ETH	smi-tool.c	46;"	d	file:
+MII_ANAR	mii.h	66;"	d
+MII_ANER	mii.h	83;"	d
+MII_ANER_LP_AN_ABLE	mii.h	88;"	d
+MII_ANER_LP_NP_ABLE	mii.h	85;"	d
+MII_ANER_MULT_FAULT	mii.h	84;"	d
+MII_ANER_NP_ABLE	mii.h	86;"	d
+MII_ANER_PAGE_RX	mii.h	87;"	d
+MII_ANLPAR	mii.h	68;"	d
+MII_AN_100BASET4	mii.h	74;"	d
+MII_AN_100BASETX_FD	mii.h	75;"	d
+MII_AN_100BASETX_HD	mii.h	76;"	d
+MII_AN_10BASET_FD	mii.h	77;"	d
+MII_AN_10BASET_HD	mii.h	78;"	d
+MII_AN_ABILITY_MASK	mii.h	72;"	d
+MII_AN_ACK	mii.h	70;"	d
+MII_AN_FLOW_CONTROL	mii.h	73;"	d
+MII_AN_NEXT_PAGE	mii.h	69;"	d
+MII_AN_PROT_802_3	mii.h	80;"	d
+MII_AN_PROT_MASK	mii.h	79;"	d
+MII_AN_REMOTE_FAULT	mii.h	71;"	d
+MII_BASIC_MAX	mii.h	101;"	d
+MII_BMCR	mii.h	35;"	d
+MII_BMCR2_1000FULL	mii.h	91;"	d
+MII_BMCR2_1000HALF	mii.h	92;"	d
+MII_BMCR_100MBIT	mii.h	38;"	d
+MII_BMCR_AN_ENA	mii.h	39;"	d
+MII_BMCR_COLTEST	mii.h	43;"	d
+MII_BMCR_DUPLEX	mii.h	42;"	d
+MII_BMCR_ISOLATE	mii.h	40;"	d
+MII_BMCR_LOOPBACK	mii.h	37;"	d
+MII_BMCR_RESET	mii.h	36;"	d
+MII_BMCR_RESTART	mii.h	41;"	d
+MII_BMCR_SPEED1000	mii.h	44;"	d
+MII_BMSR	mii.h	47;"	d
+MII_BMSR_100BASET4	mii.h	49;"	d
+MII_BMSR_100BASETX_FD	mii.h	50;"	d
+MII_BMSR_100BASETX_HD	mii.h	51;"	d
+MII_BMSR_10BASET_FD	mii.h	52;"	d
+MII_BMSR_10BASET_HD	mii.h	53;"	d
+MII_BMSR_AN_ABLE	mii.h	57;"	d
+MII_BMSR_AN_COMPLETE	mii.h	55;"	d
+MII_BMSR_CAP_MASK	mii.h	48;"	d
+MII_BMSR_EXT_CAP	mii.h	60;"	d
+MII_BMSR_JABBER	mii.h	59;"	d
+MII_BMSR_LINK_VALID	mii.h	58;"	d
+MII_BMSR_NO_PREAMBLE	mii.h	54;"	d
+MII_BMSR_REMOTE_FAULT	mii.h	56;"	d
+MII_CTRL1000	mii.h	90;"	d
+MII_LPA2_1000FULL	mii.h	97;"	d
+MII_LPA2_1000HALF	mii.h	98;"	d
+MII_LPA2_1000LOCALOK	mii.h	95;"	d
+MII_LPA2_1000REMRXOK	mii.h	96;"	d
+MII_PHY_ID1	mii.h	62;"	d
+MII_PHY_ID2	mii.h	63;"	d
+MII_STAT1000	mii.h	94;"	d
+SIOCGMIIPHY	mii.h	17;"	d
+SIOCGMIIREG	mii.h	18;"	d
+SIOCGPARAMS	mii.h	20;"	d
+SIOCGSMIREG	smi-tool.c	43;"	d	file:
+SIOCSMIIREG	mii.h	19;"	d
+SIOCSPARAMS	mii.h	21;"	d
+SIOCSSMIREG	smi-tool.c	44;"	d	file:
+_NETTOOLS_MII_H	mii.h	10;"	d
+ifr	smi-tool.c	/^static struct ifreq ifr;$/;"	v	typeref:struct:ifreq	file:
+main	smi-tool.c	/^int main(int argc, char **argv)$/;"	f
+mdio_read	smi-tool.c	/^static int mdio_read(int skfd, int location, int port)$/;"	f	file:
+mdio_write	smi-tool.c	/^static void mdio_write(int skfd, int location, int port, int value)$/;"	f	file:
+mii_data	mii.h	/^struct mii_data {$/;"	s
+phy_id	mii.h	/^    __u16	phy_id;$/;"	m	struct:mii_data
+reg_num	mii.h	/^    __u16	reg_num;$/;"	m	struct:mii_data
+skfd	smi-tool.c	/^static int skfd = -1;		\/* AF_INET socket for ioctl() calls. *\/$/;"	v	file:
+val_in	mii.h	/^    __u16	val_in;$/;"	m	struct:mii_data
+val_out	mii.h	/^    __u16	val_out;$/;"	m	struct:mii_data
